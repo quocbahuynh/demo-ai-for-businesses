@@ -22,8 +22,8 @@ Make sure you have the following installed:
 ### Installation
 1. **Clone the Repository**
    ```sh
-   git clone [https://github.com/quocbahuynh/ai-business-assistance](https://github.com/quocbahuynh/ai-business-assistance)]
-   cd RAGTest
+   git clone https://github.com/quocbahuynh/demo-ai-for-businesses
+   cd DemoAIChatForBusiness
    ```
 
 2. **Install Dependencies**
@@ -57,21 +57,29 @@ Documents are stored in `settings.Documents`:
   {
     "Title": "Company A",
     "BrandId": "company_a",
-    "Path": "Data/company_a"
+    "Path": "Stored/company_a"
+  },
+  {
+    "Title": "Company B",
+    "BrandId": "company_b",
+    "Path": "Stored/company_b"
   }
 ]
 ```
 #### Setting Up the Data Folder
-Users must create a `Data` folder inside `project-root/main-project/Data`. Inside this folder, create subdirectories matching the `Path` in `appsettings.json`, and store `.txt` files containing company-provided data.
+Users must create a `Stored` folder inside `project-root/main-project/Stored`. Inside this folder, create subdirectories matching the `Path` in `appsettings.json`, and store `.txt` files containing company-provided data.
 
 For example:
 ```
-/project-root/
- ├── main-project/
- │   ├── Data/
+/DemoAIChatForBusiness (root)/
+ ├── DemoAIChatForBusiness (main project)/
+ │   ├── Stored/
  │   │   ├── company_a/
- │   │   │   ├── file1.txt
- │   │   │   ├── file2.txt
+ │   │   │   ├── data.txt
+ │   │   ├── company_b/
+ │   │   │   ├── data.txt
+ │   │   ├── company_c/
+ │   │   │   ├── data.txt
 ```
 
 ## Usage
@@ -81,7 +89,3 @@ For example:
 
 ## Contributing
 Feel free to fork this repository and submit pull requests for improvements.
-
-## License
-This project is licensed under the MIT License.
-
