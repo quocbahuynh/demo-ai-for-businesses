@@ -1,5 +1,6 @@
 # AI Chatbot with Ollama & Kernel Memory
-![Sematic Kernel](https://github.com/user-attachments/assets/44cd5ab6-2f1e-4a97-8ab9-97edc45d46f6)
+
+![Sematic Kernel](https://github.com/user-attachments/assets/a34ba5d4-89e0-4682-a7bd-1546a0fa76a0)
 
 ## Overview
 This project is an AI-powered chatbot that leverages **Ollama** for text generation and **Microsoft Kernel Memory** for document storage and retrieval. The chatbot uses company-provided documents to answer user queries, allowing businesses to provide AI-driven support and insights. 
